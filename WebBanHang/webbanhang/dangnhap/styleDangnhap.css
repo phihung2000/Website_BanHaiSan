@@ -1,0 +1,43 @@
+
+.dangnhap 
+{
+    text-align: center;
+    width: 350px;
+    margin: 10px auto;  
+    background-color: #FFFFCC;
+}
+input[type=text], input[type=password] {
+    width: 200px;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+label[type=text]{
+    text-align: right;
+    font-weight: bold;
+    font-size: larger;
+}    
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+ 
+.button {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+      
+.button:hover {
+    opacity: 0.8;
+}

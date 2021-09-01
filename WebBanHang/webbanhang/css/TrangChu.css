@@ -1,0 +1,310 @@
+body{
+	background: #EEEEEE;
+}
+.header{
+	width: 100%;
+	background-color: #80bb35;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	padding: 15px 0px;
+	display: flex;
+}
+
+.header ul{
+	display: flex;
+	 list-style-type: none; 
+	 margin-bottom: 0px;
+	 width: 100%;
+}
+.header li{
+	text-align: center;
+}
+.header_2{
+	width: 100%;
+	margin-left: 0%;
+	background-color: #33FFFF;
+	padding: 30px 0px;
+	display: flex;
+	font-size: 14px;
+	animation: colorBackground 0.5s infinite;
+    -webkit-animation: colorBackground 5s infinite;
+    -moz-animation: colorBackground 5s infinite;
+    -o-animation: colorBackground 0.5s infinite
+}
+@keyframes colorBackground {
+	0% {
+	background-color: yellowgreen;
+	color: white;
+	}
+	50% {
+	background-color: #33CCFF;
+	color: yellow;
+	}
+	}
+
+.header_2 .col-lg-8 .col-lg-4{
+	display: flex;
+	padding: 0px;
+}
+
+
+.header_2 .col-lg-1{
+	margin-top: 2%;
+	padding: 0px;
+}
+
+.header_2 .col-lg-1 a{
+	background-color: orange;
+	padding: 5% 10%;
+	border-radius: 5px;
+}
+
+
+.header_2 .col-lg-8 {
+	display: flex;
+	margin-top: 2%;
+}
+
+
+
+/*THANH MENu*/
+.menu{
+	background-color: #80bb35;
+	
+}
+
+.menu nav{
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+.menu ul{
+	margin-left: 3.5%;
+	width: 70%;
+}
+
+.menu ul li{
+	margin-left: 2%;
+	color:white;
+}
+
+.menu ul li a{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+
+.menu ul li:hover{
+	background-color: orange;
+}
+ 
+
+.menu a{
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+/*MAIN MENU TRÁI*/
+
+.main{
+	margin: 0 auto;
+	margin-top: 1.5%
+}
+
+.left-menu a{
+	color: black !important;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.left-menu span{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.left-menu a:hover{
+	color: #80bb35 !important;
+}
+/*
+SLIDE IMG*/
+.carousel img{
+	max-height: 250px;
+    max-width: 100%;
+    margin-left: 5%;
+}
+.main .col-lg-9 .col-lg-6{
+	float: left;
+	margin-top: 2%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.main .col-lg-9 .col-lg-6 img{
+	max-width: 100%;
+}
+
+
+/*PRODUCT*/
+
+.product {
+	margin-top: 2%;
+}
+
+.product img {
+	max-width: 100%;
+}
+
+.title{
+	padding-bottom: 1%;
+}
+
+.title span:first-child{
+	color: white;
+	background-color: #80bb35;
+	padding: 1% 3%;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.title span:last-child{
+	color: black;
+	margin-left: 72%;
+	
+}
+
+.title span:last-child a{
+	font-weight: bold;
+	color: #80bb35;
+	text-decoration: none;
+	border-bottom: 2px solid #80bb35;
+	font-size: 13px;
+}
+
+.product .col-lg-3 {
+	text-align: center;
+float: left;
+margin-top: 1%;
+}
+
+.product .col-lg-3 .sale {
+	width: 20%;
+	background: orange;
+	height: 8%;
+	position: absolute;
+	top: 5%;
+}
+
+.product .col-lg-3 .buy_hover {
+	width: 89%;
+	height: 20%;
+	position: absolute;
+	top: 40%;
+	background-color: white;
+	align-items: center;
+	display: none;
+	opacity: 0.8;
+}
+
+.product .col-lg-3 .buy_hover i {
+	margin-top: 8%;
+	padding: 2%;
+
+}
+
+.product .col-lg-3:hover .buy_hover{
+	display: block;
+	
+}
+
+.product .col-lg-3 .card a{
+	color: black;
+}
+.product .col-lg-3 .card p span:first-child{
+	color: orange;
+}
+
+
+/*TIN TUC*/
+.new{
+	border-top:  solid 2px orange;
+	margin-top: 5%;
+	padding: 0px;
+	/*position: relative;*/
+	text-align: center;
+}
+.new a{
+	color: white;
+	background-color: #80bb35;
+	padding: 0px;
+	/*position: absolute;*/
+	/*left: 45%;*/
+	/*bottom: 25%;*/
+	padding: 1% 3%;
+	border-radius: 15px;
+}
+.xemthem{
+	text-align: center;
+	background: #80bb35;
+	width: 100%;
+	height: 200px;
+}
+.food_new .col-lg-4 .card{
+	text-align: center;
+}
+.food_new .col-lg-4 .card  {
+	height: 400px;
+}
+.food_new .col-lg-4 .card .btn{
+	background: #80bb35;
+}
+.food_new .col-lg-4 .card img{
+	width: 100%;
+	height: 200px;
+}
+
+
+/*FOOTER*/
+
+ .footer{
+ 	background-color: #80bb35;
+ 	display: flex;
+ 	padding: 5% 5%;
+ 	margin-top: 3%;
+ }
+
+  .footer .list-group {
+ 	background-color: #80bb35;
+ 	border: none;
+ 	color: white;
+ }
+
+ .footer .list-group li{
+ 	background-color: #80bb35;
+ 	border: none;
+ 	color: white;
+ 	font-size: 25px;
+ 	padding: 0px;
+ }
+
+  .footer .list-group li i{
+ 	color: orange;
+ 	padding-right: 1%;
+ }
+
+   .footer .list-group li  a{
+ 	color: white;
+ 	font-size: 16px;
+ }
+.input-group{
+	 text-align: center;
+	 margin-top: 10px;
+ }
+
+/*CSS CHO SMART PHONE*/
+
+@media only screen and (max-width: 600px) {
+  .header {
+   display: none;
+  }
+}

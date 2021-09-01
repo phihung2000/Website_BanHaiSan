@@ -1,0 +1,27 @@
+#giohangcuaban{
+    text-align: center;
+    width: 100%;
+}
+.giohangcuaban{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+.foodhaven{
+    text-align: center;
+}
+.foodhaven img{
+    width: 100px;
+    height: 100px;
+}
+.TongTien{
+    text-align: right;
+    color: blue;
+    margin-right: -50%;
+}
+.ThongBao{
+    text-align: right;
+    color: #28a745;
+    margin-right: -50%;
+}
